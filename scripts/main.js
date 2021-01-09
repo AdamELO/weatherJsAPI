@@ -1,5 +1,5 @@
 import tabJoursEnOrdre from './Utilitaire/gestionTemps.js'
-const CLEFAPI = '986b6ee69a7d1ee631732649917dfa8c';
+const CLEFAPI = '';
 let resultatsAPI;
 if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(position => {
